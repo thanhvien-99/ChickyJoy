@@ -1,0 +1,13 @@
+.git
+.vs
+**/bin
+**/obj
+**/*.user
+**/*.suo
+Secrets
+**/App_Data
+**/Logs
+**/Run
+.env
+.env.*
+**/secrets.json
