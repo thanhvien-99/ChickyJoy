@@ -1,0 +1,244 @@
+/* Checkout layout refinements and QR payment flow */
+:root { --container: 1400px; }
+html { font-size: 16px; }
+body { min-width: 320px; overflow-x: clip; font-size: 15px; }
+.container { width: min(calc(100% - clamp(28px, 5vw, 80px)), var(--container)); }
+.promo-strip { font-size: 12px; }
+.promo-inner { min-height: 38px; height: auto; padding-block: 6px; }
+.promo-inner button { font-size: 11px; }
+.header-main { gap: clamp(14px, 2vw, 30px); }
+.brand-mark { width: 48px; height: 48px; }
+.brand-copy b { font-size: 22px; }
+.brand-copy small { font-size: 9px; }
+.main-nav { gap: clamp(14px, 1.8vw, 28px); }
+.main-nav a { font-size: 14px; }
+.mode-pill, .header-icon, .account-button { font-size: 12px; padding: 10px 12px; }
+.cart-button { font-size: 13px; padding: 11px 14px; }
+.branch-select small { font-size: 10px; }
+.branch-select small:first-child { font-size: 9px; }
+.branch-select b { font-size: 13px; }
+.branch-note { font-size: 11px; }
+.eyebrow { font-size: 10px; }
+.hero-copy > p { font-size: clamp(14px, 1vw, 17px); }
+.hero-actions .primary-btn, .hero-actions .text-btn { font-size: 13px; }
+.hero-proof { font-size: 13px; }
+.hero-proof small { font-size: 11px; }
+.service-strip b { font-size: 13px; }
+.service-strip small { font-size: 11px; }
+.section-heading h2 { font-size: clamp(28px, 2.25vw, 36px); }
+.section-heading p { font-size: 14px; }
+.outline-btn { font-size: 12px; padding: 11px 14px; }
+.search-box input { font-size: 14px; }
+.sort-label { font-size: 12px; }
+.sort-label select { font-size: 12px; }
+.check-chip { font-size: 12px; }
+.category { font-size: 12px; padding: 10px 15px; }
+.menu-results { font-size: 12px; }
+.clear-filters { font-size: 12px; }
+.product-grid { gap: clamp(12px, 1.4vw, 22px); }
+.product-media { height: clamp(165px, 17vw, 230px); }
+.product-category { font-size: 10px; }
+.product-name { font-size: 15px; min-height: 42px; }
+.product-desc { font-size: 12px; min-height: 38px; }
+.product-meta { font-size: 11px; }
+.product-price { font-size: 18px; }
+.add-btn { font-size: 11px; padding: 9px 11px; }
+.product-tag { font-size: 10px; }
+.favorite-btn { width: 34px; height: 34px; }
+.menu-bottom-note p { font-size: 12px; }
+.menu-bottom-note p b { font-size: 13px; }
+.menu-bottom-note button { font-size: 12px; }
+.voucher-card { min-height: 160px; padding: 18px; }
+.voucher-card .voucher-type { font-size: 10px; }
+.voucher-card h3 { font-size: 19px; }
+.voucher-card p { font-size: 12px; }
+.voucher-code { font-size: 12px; }
+.voucher-bottom button { font-size: 11px; }
+.member-content p { font-size: 13px; }
+.yellow-btn { font-size: 13px; }
+.faq-strip b { font-size: 13px; }
+.faq-strip small { font-size: 11px; }
+.faq-strip button { font-size: 12px; }
+.footer-brand > p, .footer-columns a:not(.brand) { font-size: 12px; }
+.footer-columns h3 { font-size: 14px; }
+.footer-columns small { font-size: 11px; }
+.footer-bottom { font-size: 10px; }
+.toast { font-size: 13px; }
+.modal { width: min(680px, 100%); }
+.modal-wide { width: min(1100px, 100%); }
+.modal-head h2 { font-size: clamp(18px, 1.5vw, 23px); }
+.modal-head { padding: 22px 26px; }
+.modal-body { padding: 24px 26px; }
+.modal-foot { padding: 16px 26px; }
+.field span, .group-head b { font-size: 12px; }
+.field input, .field select, textarea { font-size: 14px; }
+.payment-option { font-size: 12px; }
+.field-help, .payment-info-note, .checkout-summary-pill { font-size: 11px; }
+.cart-section-title, .checkout-panel h3 { font-size: 15px; }
+.cart-item-info h4 { font-size: 14px; }
+.cart-item-info p { font-size: 11px; }
+.cart-item-info small { font-size: 12px; }
+.cart-side strong { font-size: 13px; }
+.pricing-line { font-size: 12px; }
+.pricing-line.total { font-size: 16px; }
+.history-item h4 { font-size: 14px; }
+.history-item p { font-size: 12px; }
+.status-badge { font-size: 10px; }
+.history-item-actions button { font-size: 11px; }
+.detail-box h3 { font-size: 15px; }
+.detail-box p, .detail-line { font-size: 12px; }
+.tracker-step { font-size: 10px; }
+.tracker-step span { font-size: 18px; }
+.payment-confirmed { color: var(--success); }
+
+/* QR payment modal */
+.bank-payment-modal { width: min(900px, 100%); }
+.bank-payment-modal .modal-body { background: #fbfbfc; }
+
+.bank-payment-grid { display: grid; grid-template-columns: minmax(220px, .8fr) minmax(0, 1.2fr); align-items: start; gap: 24px; }
+.bank-qr-card { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 10px; border: 1px solid var(--line); border-radius: 15px; background: #fff; padding: 19px; }
+.bank-qr-frame { display: grid; place-items: center; width: min(100%, 290px); min-height: 250px; aspect-ratio: 1; padding: 8px; border: 1px solid #eceef2; border-radius: 12px; background: white; }
+.bank-qr-frame img { width: 100%; height: 100%; max-width: 270px; object-fit: contain; }
+.bank-qr-card > b { font-size: 14px; }
+.bank-qr-card > small { font-size: 11px; color: var(--muted); }
+.bank-qr-fallback { padding: 24px; color: var(--muted); font-size: 12px; line-height: 1.7; }
+.bank-transfer-details { display: grid; gap: 12px; min-width: 0; }
+.bank-order-ref, .bank-amount, .bank-memo-box { border: 1px solid var(--line); border-radius: 12px; background: #fff; padding: 15px 17px; }
+.bank-order-ref span, .bank-memo-box > span { display: block; font-size: 10px; letter-spacing: 1px; color: var(--muted); font-weight: 900; margin-bottom: 7px; }
+.bank-order-ref strong { color: var(--primary); font-size: 19px; overflow-wrap: anywhere; }
+.bank-amount span { display: block; color: var(--muted); font-size: 12px; margin-bottom: 4px; }
+.bank-amount strong { display: block; color: var(--primary); font-size: clamp(24px, 2.4vw, 32px); letter-spacing: -1px; }
+.bank-info-row { display: flex; justify-content: space-between; gap: 16px; padding: 2px 1px; font-size: 12px; }
+.bank-info-row span { color: var(--muted); }
+.bank-info-row b { text-align: right; }
+.bank-memo-box { display: grid; gap: 9px; }
+.bank-memo-box strong { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 14px; letter-spacing: .3px; overflow-wrap: anywhere; color: var(--ink); }
+.bank-memo-box .outline-btn { justify-self: start; }
+.bank-flow-note { margin: 0; border-left: 3px solid var(--primary); padding: 4px 0 4px 11px; color: var(--muted); font-size: 12px; line-height: 1.7; }
+.bank-payment-footer { display: flex; justify-content: flex-end; gap: 10px; }
+.bank-payment-footer .primary-btn { font-size: 13px; }
+.track-items-box { margin-top: 14px; }
+.track-item-detail { display: block; margin-top: 4px; font-size: 11px; }
+
+@media (min-width: 1600px) {
+  :root { --container: 1480px; }
+  .hero { min-height: 460px; }
+  .product-grid { gap: 22px; }
+}
+@media (max-width: 1120px) {
+  .container { width: calc(100% - 36px); }
+  .main-nav { gap: 14px; }
+  .header-main { gap: 12px; }
+  .brand-copy b { font-size: 19px; }
+  .header-controls { flex-wrap: nowrap; }
+  .mode-pill, .header-icon, .account-button { font-size: 11px; padding: 9px; }
+  .cart-button { font-size: 11px; padding: 9px 10px; }
+  .product-name { font-size: 14px; }
+  .product-desc { font-size: 11px; }
+}
+@media (max-width: 850px) {
+  .container { width: calc(100% - 32px); }
+  .hero-copy > p { font-size: 14px; }
+  .service-strip b { font-size: 12px; }
+  .service-strip small { font-size: 10px; }
+  .section-heading p { font-size: 13px; }
+  .catalog-tools { gap: 12px; }
+  .search-box input { font-size: 13px; }
+  .product-media { height: clamp(150px, 25vw, 220px); }
+  .product-name { font-size: 14px; }
+  .product-desc { font-size: 11px; }
+  .product-price { font-size: 16px; }
+  .cart-layout { gap: 18px; }
+  .bank-payment-grid { grid-template-columns: minmax(190px, .8fr) minmax(0, 1.2fr); gap: 16px; }
+}
+@media (max-width: 600px) {
+  .container { width: calc(100% - 28px); }
+  .promo-inner { gap: 8px; font-size: 10px; }
+  .promo-inner > span { max-width: 100%; }
+  .promo-inner > div { gap: 4px; }
+  .promo-inner button { font-size: 9px; white-space: nowrap; }
+  .brand-copy b { font-size: 16px; }
+  .brand-copy small { font-size: 7px; }
+  .header-controls { gap: 3px; }
+  .header-icon { padding: 7px; }
+  .cart-button { padding: 8px; }
+  .hero-copy > p { font-size: 13px; }
+  .hero-proof { font-size: 10px; }
+  .hero-proof small { font-size: 8px; }
+  .service-strip b { font-size: 10px; }
+  .service-strip small { font-size: 9px; }
+  .section-heading h2 { font-size: 25px; }
+  .section-heading p { font-size: 11px; }
+  .outline-btn { font-size: 10px; padding: 9px 10px; }
+  .sort-label { font-size: 10px; }
+  .sort-label select { font-size: 10px; padding: 8px; }
+  .check-chip { font-size: 10px; }
+  .category { font-size: 10px; padding: 8px 11px; }
+  .menu-results { font-size: 10px; }
+  .product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .product-media { height: clamp(112px, 34vw, 165px); }
+  .product-body { padding: 10px; }
+  .product-category { font-size: 8px; }
+  .product-name { font-size: 11px; min-height: 32px; }
+  .product-desc { font-size: 9px; min-height: 34px; }
+  .product-meta { font-size: 8px; }
+  .product-price { font-size: 13px; }
+  .add-btn { font-size: 8px; padding: 7px; }
+  .product-tag { font-size: 7px; }
+  .voucher-card { min-height: 145px; padding: 10px; }
+  .voucher-card h3 { font-size: 13px; }
+  .voucher-card p { font-size: 9px; }
+  .voucher-bottom button { font-size: 9px; }
+  .member-content p { font-size: 11px; }
+  .faq-strip b { font-size: 11px; }
+  .faq-strip small { font-size: 9px; }
+  .footer-brand > p, .footer-columns a:not(.brand) { font-size: 10px; }
+  .footer-columns h3 { font-size: 12px; }
+  .footer-bottom { font-size: 8px; }
+  .overlay { padding: 8px; align-items: flex-end; }
+  .modal, .modal-wide { width: 100%; max-height: min(94dvh, 900px); border-radius: 18px 18px 10px 10px; }
+  .modal-head { padding: 15px 16px; }
+  .modal-body { padding: 16px; overscroll-behavior: contain; }
+  .modal-foot { padding: 12px 16px; }
+  .modal-head h2 { font-size: 17px; }
+  .field span, .group-head b { font-size: 11px; }
+  .field input, .field select, textarea { font-size: 13px; min-height: 42px; }
+  .payment-option { font-size: 10px; }
+  .field-help, .payment-info-note, .checkout-summary-pill { font-size: 10px; }
+  .cart-item-info h4 { font-size: 10px; }
+  .cart-item-info p { font-size: 9px; }
+  .cart-item-info small { font-size: 10px; }
+  .pricing-line { font-size: 10px; }
+  .history-item h4 { font-size: 12px; }
+  .history-item p { font-size: 10px; }
+  .history-item-actions button { font-size: 10px; }
+  .detail-box h3 { font-size: 13px; }
+  .detail-box p, .detail-line { font-size: 10px; }
+  .bank-payment-grid { grid-template-columns: 1fr; gap: 14px; }
+
+  .bank-qr-card { padding: 12px; }
+  .bank-qr-frame { width: min(68vw, 240px); min-height: 0; }
+  .bank-qr-card > b { font-size: 12px; }
+  .bank-qr-card > small { font-size: 10px; }
+  .bank-order-ref, .bank-amount, .bank-memo-box { padding: 12px; }
+  .bank-order-ref strong { font-size: 16px; }
+  .bank-amount strong { font-size: 25px; }
+  .bank-info-row { font-size: 10px; }
+  .bank-memo-box strong { font-size: 12px; }
+  .bank-flow-note { font-size: 10px; }
+  .bank-payment-footer { display: grid; grid-template-columns: 1fr; }
+  .bank-payment-footer .primary-btn { width: 100%; font-size: 11px; padding: 12px 13px; }
+  .bank-payment-footer .outline-btn { width: 100%; }
+  .order-tracker { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 380px) {
+  .brand-copy small { letter-spacing: .3px; }
+  .promo-inner > div button:last-child { display: none; }
+  .header-main { gap: 7px; }
+  .brand { gap: 6px; }
+  .brand-mark { width: 33px; height: 33px; font-size: 16px; }
+  .header-controls { gap: 2px; }
+  .cart-button { gap: 4px; }
+  .product-name { font-size: 10px; }
+  .add-btn { font-size: 7px; }
+}

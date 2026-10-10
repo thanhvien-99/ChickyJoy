@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "Status reports unavailable without exposing credentials",
+    "Empty/oversized questions, forged/null history and excessive context rejected",
+    "Foreign browser origin rejected",
+    "Missing credential produces a safe HTTP 503",
+    "Per-IP request limit returns HTTP 429",
+    "Staff route serves the frontend with correct asset base",
+    "Unknown API returns JSON 404"
+  ],
+  "provider": "No external API call"
+}

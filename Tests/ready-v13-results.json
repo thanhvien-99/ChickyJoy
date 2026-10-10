@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "date": "2026-10-10",
+  "launcher": "PowerShell 7.4 on Linux with explicit .NET path; native Windows .cmd not executed",
+  "credential": "Owner-provided; private server configuration; not included in this report",
+  "preflight": {
+    "endpoint": "Responses API",
+    "http": 429,
+    "error_type": "insufficient_quota",
+    "error_code": "credit_balance_exhausted",
+    "model": "gpt-4.1"
+  },
+  "actual_server": [
+    {
+      "http": 502,
+      "code": "ai_quota"
+    }
+  ],
+  "model_answer_quality": "Not evaluated: OpenAI rejected inference because the API credit balance is exhausted",
+  "checks": [
+    "The packaged compiled server opens the actual ChickyJoy page with all 72 catalog items",
+    "The server private credential is not returned by public file routes",
+    "Actual server request reaches OpenAI; exhausted-credit response is classified as ai_quota and the page stays usable",
+    "After the real quota failure, catalog follow-up references work without extra provider requests",
+    "The real failure and fallback view fit a 390px mobile viewport"
+  ]
+}

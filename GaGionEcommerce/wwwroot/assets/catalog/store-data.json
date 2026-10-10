@@ -1,0 +1,1107 @@
+{
+  "shippingFee": 15000,
+  "branches": [
+    {
+      "id": "q5",
+      "name": "ChickyJoy Quận 5",
+      "address": "273 An Dương Vương, Quận 5, TP.HCM",
+      "eta": "20–35 phút",
+      "hours": "09:00–22:00"
+    },
+    {
+      "id": "q1",
+      "name": "ChickyJoy Quận 1",
+      "address": "102 Nguyễn Thị Minh Khai, Quận 1, TP.HCM",
+      "eta": "20–30 phút",
+      "hours": "09:00–22:30"
+    },
+    {
+      "id": "bt",
+      "name": "ChickyJoy Bình Thạnh",
+      "address": "18 Xô Viết Nghệ Tĩnh, Bình Thạnh, TP.HCM",
+      "eta": "25–40 phút",
+      "hours": "09:00–22:00"
+    },
+    {
+      "id": "td",
+      "name": "ChickyJoy Thủ Đức",
+      "address": "25 Võ Văn Ngân, TP. Thủ Đức, TP.HCM",
+      "eta": "25–40 phút",
+      "hours": "09:00–22:00"
+    }
+  ],
+  "menu": [
+    {
+      "id": 1,
+      "name": "Combo Hội Bạn",
+      "cat": "combo",
+      "price": 159000,
+      "tag": "BÁN CHẠY",
+      "desc": "4 miếng gà, khoai lắc phô mai và 2 nước.",
+      "popular": 100,
+      "spicy": true,
+      "img": "assets/images/combo.webp",
+      "group": "group",
+      "serves": 2
+    },
+    {
+      "id": 2,
+      "name": "Combo Một Mình Vẫn Vui",
+      "cat": "combo",
+      "price": 69000,
+      "tag": "TIẾT KIỆM",
+      "desc": "1 miếng gà, khoai vừa và 1 nước.",
+      "popular": 95,
+      "spicy": false,
+      "img": "assets/images/combo.webp",
+      "group": "solo",
+      "serves": 1
+    },
+    {
+      "id": 3,
+      "name": "Combo Cả Nhà Mê",
+      "cat": "combo",
+      "price": 249000,
+      "tag": "NHÓM 3–4",
+      "desc": "6 miếng gà, 1 burger, salad và 3 nước.",
+      "popular": 91,
+      "spicy": false,
+      "img": "assets/images/familycombo.webp",
+      "group": "group",
+      "serves": 3
+    },
+    {
+      "id": 4,
+      "name": "Combo Couple",
+      "cat": "combo",
+      "price": 119000,
+      "tag": "CHO 2 NGƯỜI",
+      "desc": "2 miếng gà, 1 khoai và 2 nước.",
+      "popular": 88,
+      "spicy": true,
+      "img": "assets/images/combo.webp",
+      "group": "duo",
+      "serves": 2
+    },
+    {
+      "id": 5,
+      "name": "Combo Đại Tiệc 8 Miếng",
+      "cat": "combo",
+      "price": 289000,
+      "tag": "ĐÃI CẢ NHÓM",
+      "desc": "8 miếng gà giòn, 2 món ăn kèm và 4 nước.",
+      "popular": 80,
+      "spicy": true,
+      "img": "assets/images/familycombo.webp",
+      "group": "group",
+      "serves": 4
+    },
+    {
+      "id": 6,
+      "name": "Combo Burger Đôi",
+      "cat": "combo",
+      "price": 129000,
+      "tag": "COMBO MỚI",
+      "desc": "2 burger gà, 1 khoai lớn và 2 nước.",
+      "popular": 72,
+      "spicy": false,
+      "img": "assets/images/burger.webp",
+      "group": "duo",
+      "serves": 2
+    },
+    {
+      "id": 7,
+      "name": "Combo Gà & Cơm",
+      "cat": "combo",
+      "price": 79000,
+      "tag": "NO BỤNG",
+      "desc": "1 miếng gà, cơm gà sốt và trà đào.",
+      "popular": 68,
+      "spicy": true,
+      "img": "assets/images/rice.webp",
+      "group": "solo",
+      "serves": 1
+    },
+    {
+      "id": 8,
+      "name": "Combo Xem Phim",
+      "cat": "combo",
+      "price": 99000,
+      "tag": "ĂN VẶT",
+      "desc": "3 miếng gà không xương, khoai và 2 nước.",
+      "popular": 66,
+      "spicy": true,
+      "img": "assets/images/nuggets.webp",
+      "group": "duo",
+      "serves": 2
+    },
+    {
+      "id": 9,
+      "name": "Gà Giòn Cay Đậm Vị",
+      "cat": "chicken",
+      "price": 39000,
+      "tag": "CAY ĐẬM",
+      "desc": "Gà chiên giòn với lớp áo gia vị cay nồng.",
+      "popular": 90,
+      "spicy": true,
+      "img": "assets/images/chicken.webp"
+    },
+    {
+      "id": 10,
+      "name": "Gà Giòn Truyền Thống",
+      "cat": "chicken",
+      "price": 35000,
+      "tag": "KINH ĐIỂN",
+      "desc": "Vỏ giòn vàng, thịt mềm mọng nước.",
+      "popular": 89,
+      "spicy": false,
+      "img": "assets/images/chicken.webp"
+    },
+    {
+      "id": 11,
+      "name": "Gà Phi Lê Giòn",
+      "cat": "chicken",
+      "price": 42000,
+      "tag": "THỊT PHI LÊ",
+      "desc": "Ức gà phi lê tẩm bột, giòn bên ngoài.",
+      "popular": 76,
+      "spicy": false,
+      "img": "assets/images/nuggets.webp"
+    },
+    {
+      "id": 12,
+      "name": "Gà Không Xương 3 Miếng",
+      "cat": "chicken",
+      "price": 49000,
+      "tag": "DỄ ĂN",
+      "desc": "Ba miếng gà không xương dùng kèm xốt.",
+      "popular": 74,
+      "spicy": true,
+      "img": "assets/images/nuggets.webp"
+    },
+    {
+      "id": 13,
+      "name": "Gà Không Xương 5 Miếng",
+      "cat": "chicken",
+      "price": 75000,
+      "tag": "CHIA SẺ",
+      "desc": "Năm miếng gà không xương giòn rụm.",
+      "popular": 73,
+      "spicy": false,
+      "img": "assets/images/nuggets.webp"
+    },
+    {
+      "id": 14,
+      "name": "Đùi Gà Giòn",
+      "cat": "chicken",
+      "price": 39000,
+      "tag": "NHIỀU THỊT",
+      "desc": "Đùi gà chiên giòn, đậm vị.",
+      "popular": 70,
+      "spicy": true,
+      "img": "assets/images/chicken.webp"
+    },
+    {
+      "id": 15,
+      "name": "Cánh Gà Cay 2 Miếng",
+      "cat": "chicken",
+      "price": 39000,
+      "tag": "CAY",
+      "desc": "Cánh gà nhỏ, lớp áo cay giòn.",
+      "popular": 67,
+      "spicy": true,
+      "img": "assets/images/wings.webp"
+    },
+    {
+      "id": 16,
+      "name": "Cánh Gà BBQ 4 Miếng",
+      "cat": "chicken",
+      "price": 69000,
+      "tag": "XỐT BBQ",
+      "desc": "Cánh gà phủ xốt BBQ ngọt khói.",
+      "popular": 65,
+      "spicy": false,
+      "img": "assets/images/wings.webp"
+    },
+    {
+      "id": 17,
+      "name": "Gà Giòn Mật Ong",
+      "cat": "chicken",
+      "price": 42000,
+      "tag": "XỐT MỚI",
+      "desc": "Gà giòn phủ lớp xốt mật ong mặn ngọt.",
+      "popular": 63,
+      "spicy": false,
+      "img": "assets/images/chicken.webp"
+    },
+    {
+      "id": 18,
+      "name": "Gà Giòn Thảo Mộc",
+      "cat": "chicken",
+      "price": 39000,
+      "tag": "THƠM THẢO MỘC",
+      "desc": "Gia vị thảo mộc thơm dịu, không quá cay.",
+      "popular": 61,
+      "spicy": false,
+      "img": "assets/images/chicken.webp"
+    },
+    {
+      "id": 19,
+      "name": "Burger Gà Xốt Phô Mai",
+      "cat": "burger",
+      "price": 49000,
+      "tag": "BÁN CHẠY",
+      "desc": "Gà giòn, phô mai, rau tươi và bánh mềm.",
+      "popular": 92,
+      "spicy": false,
+      "img": "assets/images/burger.webp"
+    },
+    {
+      "id": 20,
+      "name": "Burger Gà Cay",
+      "cat": "burger",
+      "price": 45000,
+      "tag": "CAY NHẸ",
+      "desc": "Phi lê gà cay, rau xanh và xốt đặc biệt.",
+      "popular": 82,
+      "spicy": true,
+      "img": "assets/images/burger.webp"
+    },
+    {
+      "id": 21,
+      "name": "Burger Gà BBQ",
+      "cat": "burger",
+      "price": 49000,
+      "tag": "XỐT BBQ",
+      "desc": "Gà giòn với xốt BBQ đậm đà.",
+      "popular": 75,
+      "spicy": false,
+      "img": "assets/images/burger.webp"
+    },
+    {
+      "id": 22,
+      "name": "Burger Gà Truyền Thống",
+      "cat": "burger",
+      "price": 39000,
+      "tag": "CỔ ĐIỂN",
+      "desc": "Burger gà giòn, xà lách và mayonnaise.",
+      "popular": 71,
+      "spicy": false,
+      "img": "assets/images/burger.webp"
+    },
+    {
+      "id": 23,
+      "name": "Burger Gấp Đôi Gà",
+      "cat": "burger",
+      "price": 69000,
+      "tag": "DOUBLE",
+      "desc": "Hai miếng phi lê gà với phô mai tan chảy.",
+      "popular": 69,
+      "spicy": false,
+      "img": "assets/images/burger.webp"
+    },
+    {
+      "id": 24,
+      "name": "Burger Tôm Giòn",
+      "cat": "burger",
+      "price": 52000,
+      "tag": "HẢI SẢN",
+      "desc": "Nhân tôm chiên giòn, rau và xốt tartar.",
+      "popular": 62,
+      "spicy": false,
+      "img": "assets/images/burger.webp"
+    },
+    {
+      "id": 25,
+      "name": "Burger Nấm Phô Mai",
+      "cat": "burger",
+      "price": 49000,
+      "tag": "MỚI",
+      "desc": "Gà giòn, nấm áp chảo và xốt phô mai.",
+      "popular": 58,
+      "spicy": false,
+      "img": "assets/images/burger.webp"
+    },
+    {
+      "id": 26,
+      "name": "Cơm Gà Giòn Sốt Tiêu",
+      "cat": "rice",
+      "price": 45000,
+      "tag": "BỮA CHÍNH",
+      "desc": "Cơm nóng, gà giòn và xốt tiêu đen.",
+      "popular": 85,
+      "spicy": false,
+      "img": "assets/images/rice.webp"
+    },
+    {
+      "id": 27,
+      "name": "Cơm Gà Xốt Cay",
+      "cat": "rice",
+      "price": 45000,
+      "tag": "CAY",
+      "desc": "Cơm nóng với gà giòn xốt cay.",
+      "popular": 79,
+      "spicy": true,
+      "img": "assets/images/rice.webp"
+    },
+    {
+      "id": 28,
+      "name": "Cơm Gà Sốt Teriyaki",
+      "cat": "rice",
+      "price": 49000,
+      "tag": "VỊ NHẬT",
+      "desc": "Cơm cùng gà giòn và xốt teriyaki.",
+      "popular": 72,
+      "spicy": false,
+      "img": "assets/images/rice.webp"
+    },
+    {
+      "id": 29,
+      "name": "Cơm Gà Viên",
+      "cat": "rice",
+      "price": 39000,
+      "tag": "GỌN NHẸ",
+      "desc": "Cơm trắng, gà viên giòn và xốt.",
+      "popular": 68,
+      "spicy": false,
+      "img": "assets/images/rice.webp"
+    },
+    {
+      "id": 30,
+      "name": "Mì Ý Gà Viên Xốt Cà",
+      "cat": "rice",
+      "price": 45000,
+      "tag": "MÓN CHÍNH",
+      "desc": "Mì Ý sốt cà chua cùng gà viên giòn.",
+      "popular": 75,
+      "spicy": false,
+      "img": "assets/images/pasta.webp"
+    },
+    {
+      "id": 31,
+      "name": "Mì Ý Xốt Kem Nấm",
+      "cat": "rice",
+      "price": 49000,
+      "tag": "BÉO MỊN",
+      "desc": "Mì Ý phủ xốt kem nấm và phô mai.",
+      "popular": 63,
+      "spicy": false,
+      "img": "assets/images/photo-1551183053-bf91a1d81141.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Khoai Tây Chiên Vừa",
+      "cat": "sides",
+      "price": 22000,
+      "tag": "ĂN KÈM",
+      "desc": "Khoai tây chiên vàng, giòn bên ngoài.",
+      "popular": 88,
+      "spicy": false,
+      "img": "assets/images/fries.webp"
+    },
+    {
+      "id": 33,
+      "name": "Khoai Tây Chiên Lớn",
+      "cat": "sides",
+      "price": 32000,
+      "tag": "SIZE LỚN",
+      "desc": "Phần khoai lớn dùng để chia sẻ.",
+      "popular": 76,
+      "spicy": false,
+      "img": "assets/images/fries.webp"
+    },
+    {
+      "id": 34,
+      "name": "Khoai Tây Lắc Phô Mai",
+      "cat": "sides",
+      "price": 29000,
+      "tag": "BÁN CHẠY",
+      "desc": "Khoai lắc bột phô mai thơm béo.",
+      "popular": 87,
+      "spicy": false,
+      "img": "assets/images/fries.webp"
+    },
+    {
+      "id": 35,
+      "name": "Bắp Cải Trộn Coleslaw",
+      "cat": "sides",
+      "price": 19000,
+      "tag": "TƯƠI MÁT",
+      "desc": "Bắp cải, cà rốt và xốt kem dịu nhẹ.",
+      "popular": 66,
+      "spicy": false,
+      "img": "assets/images/coleslaw.webp"
+    },
+    {
+      "id": 36,
+      "name": "Bắp Ngọt",
+      "cat": "sides",
+      "price": 18000,
+      "tag": "NHẸ NHÀNG",
+      "desc": "Bắp ngọt vàng, dùng nóng.",
+      "popular": 60,
+      "spicy": false,
+      "img": "assets/images/corn.webp"
+    },
+    {
+      "id": 37,
+      "name": "Phô Mai Que 3 Cây",
+      "cat": "sides",
+      "price": 29000,
+      "tag": "KÉO SỢI",
+      "desc": "Phô mai kéo sợi trong lớp vỏ giòn.",
+      "popular": 73,
+      "spicy": false,
+      "img": "assets/images/cheesesticks.webp"
+    },
+    {
+      "id": 38,
+      "name": "Gà Viên 6 Miếng",
+      "cat": "sides",
+      "price": 32000,
+      "tag": "ĂN VẶT",
+      "desc": "Gà viên giòn, phù hợp dùng chung.",
+      "popular": 80,
+      "spicy": false,
+      "img": "assets/images/nuggets.webp"
+    },
+    {
+      "id": 39,
+      "name": "Bánh Tart Trứng",
+      "cat": "sides",
+      "price": 18000,
+      "tag": "NGỌT BÉO",
+      "desc": "Vỏ bánh giòn nhẹ, nhân trứng mềm.",
+      "popular": 61,
+      "spicy": false,
+      "img": "assets/images/tart.webp"
+    },
+    {
+      "id": 40,
+      "name": "Bánh Bao Gà",
+      "cat": "sides",
+      "price": 22000,
+      "tag": "MÓN THÊM",
+      "desc": "Bánh bao mềm với nhân gà đậm vị.",
+      "popular": 55,
+      "spicy": false,
+      "img": "assets/images/bao.webp"
+    },
+    {
+      "id": 41,
+      "name": "Pepsi Có Gas",
+      "cat": "drinks",
+      "price": 18000,
+      "tag": "GIẢI KHÁT",
+      "desc": "Nước ngọt có gas, dùng lạnh.",
+      "popular": 85,
+      "spicy": false,
+      "img": "assets/images/soda.webp"
+    },
+    {
+      "id": 42,
+      "name": "Pepsi Không Calo",
+      "cat": "drinks",
+      "price": 18000,
+      "tag": "ZERO",
+      "desc": "Vị Pepsi không đường.",
+      "popular": 78,
+      "spicy": false,
+      "img": "assets/images/soda.webp"
+    },
+    {
+      "id": 43,
+      "name": "7UP",
+      "cat": "drinks",
+      "price": 18000,
+      "tag": "MÁT LẠNH",
+      "desc": "Nước ngọt vị chanh tươi mát.",
+      "popular": 70,
+      "spicy": false,
+      "img": "assets/images/lemon.webp"
+    },
+    {
+      "id": 44,
+      "name": "Mirinda Cam",
+      "cat": "drinks",
+      "price": 18000,
+      "tag": "VỊ CAM",
+      "desc": "Nước ngọt hương cam.",
+      "popular": 65,
+      "spicy": false,
+      "img": "assets/images/orange.webp"
+    },
+    {
+      "id": 45,
+      "name": "Trà Đào Cam Sả",
+      "cat": "drinks",
+      "price": 25000,
+      "tag": "BÁN CHẠY",
+      "desc": "Trà đào, cam và sả thơm nhẹ.",
+      "popular": 88,
+      "spicy": false,
+      "img": "assets/images/tea.webp"
+    },
+    {
+      "id": 46,
+      "name": "Trà Chanh",
+      "cat": "drinks",
+      "price": 20000,
+      "tag": "THANH MÁT",
+      "desc": "Trà chanh chua ngọt, dùng lạnh.",
+      "popular": 73,
+      "spicy": false,
+      "img": "assets/images/tea.webp"
+    },
+    {
+      "id": 47,
+      "name": "Trà Tắc Mật Ong",
+      "cat": "drinks",
+      "price": 22000,
+      "tag": "CHUA NGỌT",
+      "desc": "Trà tắc pha mật ong dịu nhẹ.",
+      "popular": 68,
+      "spicy": false,
+      "img": "assets/images/tea.webp"
+    },
+    {
+      "id": 48,
+      "name": "Nước Suối",
+      "cat": "drinks",
+      "price": 12000,
+      "tag": "CƠ BẢN",
+      "desc": "Nước tinh khiết đóng chai.",
+      "popular": 53,
+      "spicy": false,
+      "img": "assets/images/water.webp"
+    },
+    {
+      "id": 49,
+      "name": "Cà Phê Sữa Đá",
+      "cat": "drinks",
+      "price": 25000,
+      "tag": "ĐẬM VỊ",
+      "desc": "Cà phê sữa đá phong cách Việt.",
+      "popular": 59,
+      "spicy": false,
+      "img": "assets/images/coffee.webp"
+    },
+    {
+      "id": 50,
+      "name": "Soda Chanh",
+      "cat": "drinks",
+      "price": 29000,
+      "tag": "SỦI BỌT",
+      "desc": "Soda chanh tươi mát.",
+      "popular": 57,
+      "spicy": false,
+      "img": "assets/images/lemon.webp"
+    },
+    {
+      "id": 51,
+      "name": "Kem Vani",
+      "cat": "dessert",
+      "price": 15000,
+      "tag": "TRÁNG MIỆNG",
+      "desc": "Kem vani mềm mịn, ngọt dịu.",
+      "popular": 74,
+      "spicy": false,
+      "img": "assets/images/vanilla.webp"
+    },
+    {
+      "id": 52,
+      "name": "Kem Sô Cô La",
+      "cat": "dessert",
+      "price": 18000,
+      "tag": "SÔ CÔ LA",
+      "desc": "Kem vị sô cô la đậm đà.",
+      "popular": 71,
+      "spicy": false,
+      "img": "assets/images/chocolateice.webp"
+    },
+    {
+      "id": 53,
+      "name": "Bánh Sô Cô La",
+      "cat": "dessert",
+      "price": 25000,
+      "tag": "NGỌT NGÀO",
+      "desc": "Bánh mềm vị cacao.",
+      "popular": 61,
+      "spicy": false,
+      "img": "assets/images/cake.webp"
+    },
+    {
+      "id": 54,
+      "name": "Bánh Táo Nướng",
+      "cat": "dessert",
+      "price": 22000,
+      "tag": "THƠM QUẾ",
+      "desc": "Bánh táo nướng thơm vị quế.",
+      "popular": 58,
+      "spicy": false,
+      "img": "assets/images/applepie.webp"
+    },
+    {
+      "id": 55,
+      "name": "Sundae Dâu",
+      "cat": "dessert",
+      "price": 22000,
+      "tag": "MÁT LẠNH",
+      "desc": "Kem vani kèm xốt dâu.",
+      "popular": 66,
+      "spicy": false,
+      "img": "assets/images/icecream.webp"
+    },
+    {
+      "id": 56,
+      "name": "Sundae Sô Cô La",
+      "cat": "dessert",
+      "price": 22000,
+      "tag": "MÁT LẠNH",
+      "desc": "Kem vani kèm xốt sô cô la.",
+      "popular": 65,
+      "spicy": false,
+      "img": "assets/images/chocolatesundae.webp"
+    },
+    {
+      "id": 57,
+      "name": "Combo Gà Giòn 2 Miếng",
+      "cat": "combo",
+      "price": 89000,
+      "tag": "COMBO BÁN CHẠY",
+      "desc": "2 miếng gà giòn, khoai vừa và nước ngọt.",
+      "popular": 86,
+      "spicy": false,
+      "img": "assets/images/combo.webp",
+      "group": "solo",
+      "serves": 1
+    },
+    {
+      "id": 58,
+      "name": "Combo Gà Cay Đôi",
+      "cat": "combo",
+      "price": 109000,
+      "tag": "CAY ĐÃ MIỆNG",
+      "desc": "2 miếng gà cay, khoai lắc và 2 trà chanh.",
+      "popular": 77,
+      "spicy": true,
+      "img": "assets/images/combo.webp",
+      "group": "duo",
+      "serves": 2
+    },
+    {
+      "id": 59,
+      "name": "Combo Burger Solo",
+      "cat": "combo",
+      "price": 79000,
+      "tag": "BỮA NHANH",
+      "desc": "Burger gà, khoai vừa và nước ngọt.",
+      "popular": 84,
+      "spicy": false,
+      "img": "assets/images/burger.webp",
+      "group": "solo",
+      "serves": 1
+    },
+    {
+      "id": 60,
+      "name": "Combo Burger Hội Đôi",
+      "cat": "combo",
+      "price": 139000,
+      "tag": "CHO 2 NGƯỜI",
+      "desc": "2 burger gà, khoai lớn và 2 thức uống.",
+      "popular": 79,
+      "spicy": false,
+      "img": "assets/images/burger.webp",
+      "group": "duo",
+      "serves": 2
+    },
+    {
+      "id": 61,
+      "name": "Combo Gia Đình 4 Người",
+      "cat": "combo",
+      "price": 329000,
+      "tag": "GIA ĐÌNH",
+      "desc": "8 miếng gà, 2 khoai lớn, salad và 4 nước.",
+      "popular": 93,
+      "spicy": false,
+      "img": "assets/images/familycombo.webp",
+      "group": "group",
+      "serves": 4
+    },
+    {
+      "id": 62,
+      "name": "Combo Đại Tiệc 6 Người",
+      "cat": "combo",
+      "price": 459000,
+      "tag": "TIỆC NHÓM",
+      "desc": "12 miếng gà, 3 món ăn kèm và 6 thức uống.",
+      "popular": 90,
+      "spicy": true,
+      "img": "assets/images/familycombo.webp",
+      "group": "party",
+      "serves": 6
+    },
+    {
+      "id": 63,
+      "name": "Combo Gà Viên Vui Vẻ",
+      "cat": "combo",
+      "price": 99000,
+      "tag": "ĂN VẶT NHÓM",
+      "desc": "Gà viên, khoai lắc, phô mai que và 2 nước.",
+      "popular": 74,
+      "spicy": false,
+      "img": "assets/images/nuggets.webp",
+      "group": "duo",
+      "serves": 2
+    },
+    {
+      "id": 64,
+      "name": "Combo Cơm Trưa",
+      "cat": "combo",
+      "price": 65000,
+      "tag": "BỮA TRƯA",
+      "desc": "Cơm gà xốt tiêu kèm trà chanh.",
+      "popular": 82,
+      "spicy": false,
+      "img": "assets/images/rice.webp",
+      "group": "solo",
+      "serves": 1
+    },
+    {
+      "id": 65,
+      "name": "Combo Cơm Đôi",
+      "cat": "combo",
+      "price": 125000,
+      "tag": "BỮA ĐÔI",
+      "desc": "2 phần cơm gà, 2 thức uống và món ăn kèm.",
+      "popular": 78,
+      "spicy": false,
+      "img": "assets/images/rice.webp",
+      "group": "duo",
+      "serves": 2
+    },
+    {
+      "id": 66,
+      "name": "Combo Tiệc Sinh Nhật",
+      "cat": "combo",
+      "price": 599000,
+      "tag": "SINH NHẬT",
+      "desc": "16 miếng gà, 4 khoai lớn và 8 thức uống.",
+      "popular": 96,
+      "spicy": false,
+      "img": "assets/images/familycombo.webp",
+      "group": "party",
+      "serves": 8
+    },
+    {
+      "id": 67,
+      "name": "Combo Xem Bóng Đá",
+      "cat": "combo",
+      "price": 219000,
+      "tag": "CHIA SẺ",
+      "desc": "6 miếng gà, gà viên, khoai lớn và 3 nước.",
+      "popular": 87,
+      "spicy": true,
+      "img": "assets/images/familycombo.webp",
+      "group": "group",
+      "serves": 3
+    },
+    {
+      "id": 68,
+      "name": "Combo Văn Phòng 4 Phần",
+      "cat": "combo",
+      "price": 279000,
+      "tag": "ĐẶT THEO NHÓM",
+      "desc": "4 phần gà/cơm, 4 nước và 2 món ăn kèm.",
+      "popular": 83,
+      "spicy": false,
+      "img": "assets/images/rice.webp",
+      "group": "group",
+      "serves": 4
+    },
+    {
+      "id": 69,
+      "name": "Combo Picnic Cuối Tuần",
+      "cat": "combo",
+      "price": 389000,
+      "tag": "CUỐI TUẦN",
+      "desc": "10 miếng gà không xương, khoai, salad và 5 nước.",
+      "popular": 85,
+      "spicy": false,
+      "img": "assets/images/familycombo.webp",
+      "group": "group",
+      "serves": 5
+    },
+    {
+      "id": 70,
+      "name": "Combo Gà & Burger",
+      "cat": "combo",
+      "price": 169000,
+      "tag": "KẾT HỢP",
+      "desc": "3 miếng gà, 1 burger, khoai và 2 nước.",
+      "popular": 81,
+      "spicy": true,
+      "img": "assets/images/combo.webp",
+      "group": "group",
+      "serves": 2
+    },
+    {
+      "id": 71,
+      "name": "Combo Ăn Nhẹ",
+      "cat": "combo",
+      "price": 59000,
+      "tag": "NHẸ NHÀNG",
+      "desc": "2 gà viên, khoai nhỏ và nước suối.",
+      "popular": 67,
+      "spicy": false,
+      "img": "assets/images/nuggets.webp",
+      "group": "solo",
+      "serves": 1
+    },
+    {
+      "id": 72,
+      "name": "Combo Premium 4 Người",
+      "cat": "combo",
+      "price": 369000,
+      "tag": "ĐẶC BIỆT",
+      "desc": "8 miếng gà vị tùy chọn, 2 burger và 4 thức uống.",
+      "popular": 89,
+      "spicy": false,
+      "img": "assets/images/familycombo.webp",
+      "group": "group",
+      "serves": 4
+    }
+  ],
+  "vouchers": [
+    {
+      "code": "GION20",
+      "title": "GIÒN20",
+      "desc": "Giảm 20.000đ cho đơn món từ 99.000đ",
+      "type": "discount",
+      "min": 99000,
+      "value": 20000
+    },
+    {
+      "code": "FREESHIP",
+      "title": "FREESHIP",
+      "desc": "Miễn phí giao hàng cho đơn từ 149.000đ",
+      "type": "shipping",
+      "min": 149000,
+      "value": 15000
+    },
+    {
+      "code": "COMBO30",
+      "title": "COMBO30",
+      "desc": "Giảm 30.000đ khi đơn từ 150.000đ có Combo",
+      "type": "combo",
+      "min": 150000,
+      "value": 30000
+    },
+    {
+      "code": "WELCOME10",
+      "title": "WELCOME10",
+      "desc": "Đơn đầu tiên từ 79.000đ: giảm 10%, tối đa 25.000đ",
+      "type": "percent",
+      "min": 79000,
+      "value": 10,
+      "cap": 25000
+    }
+  ],
+  "contact": {
+    "zaloPhone": "0355135071",
+    "zaloUrl": "https://zalo.me/0355135071"
+  },
+  "payment": {
+    "bankBin": "970407",
+    "bankName": "Techcombank",
+    "accountNumber": "7772585858",
+    "accountName": "NGUYEN THANH VIEN",
+    "originalQr": "assets/payments/techcombank-original.png",
+    "suppliedQrPayload": "00020101021138540010A00000072701240006970407011077725858580208QRIBFTTA53037045802VN8300840063048B6D"
+  },
+  "customerPolicies": {
+    "cancellation": "Đơn mới được hủy trực tiếp sau xác nhận. Đơn đang chuẩn bị/đang giao/sẵn sàng nhận cần gửi yêu cầu và chờ nhà hàng phản hồi. Đơn kết thúc không hủy thêm.",
+    "refund": "Hủy không tự hoàn tiền. Nhà hàng phải đối soát khoản đã nhận và trao đổi cách xử lý.",
+    "tracking": "Đơn giao/đến lấy lưu tại trình duyệt; mở bằng biên nhận hoặc mã và số điện thoại. Đơn QR tại bàn lưu ở máy chủ, đồng bộ với nhân viên; khách mở bằng biên nhận trên thiết bị đã đặt.",
+    "payment": "QR Techcombank cố định do chủ cửa hàng cung cấp; nhập số tiền và nội dung THANHTOAN kèm mã đơn. Báo chuyển tiền khác với nhà hàng xác nhận đã nhận. MoMo/VNPay chưa kết nối."
+  },
+  "brand": {
+    "name": "ChickyJoy",
+    "slogan": "Trạm phát niềm vui",
+    "description": "Gà rán giòn rụm, bữa ngon cho gia đình và giới trẻ."
+  },
+  "sauces": [
+    {
+      "id": "cheese-sauce",
+      "name": "Xốt phô mai",
+      "price": 8000,
+      "spicy": false,
+      "color": "#efbb38",
+      "description": "Béo nhẹ, dùng riêng cùng món mặn."
+    },
+    {
+      "id": "bbq-sauce",
+      "name": "Xốt BBQ",
+      "price": 5000,
+      "spicy": false,
+      "color": "#773629",
+      "description": "Đậm vị, hợp gà và burger."
+    },
+    {
+      "id": "korean-sauce",
+      "name": "Xốt Hàn Quốc cay",
+      "price": 5000,
+      "spicy": true,
+      "color": "#b32c22",
+      "description": "Ngọt và cay, dành cho người thích vị đậm."
+    },
+    {
+      "id": "honey-mustard-sauce",
+      "name": "Xốt mật ong mù tạt",
+      "price": 5000,
+      "spicy": false,
+      "color": "#c99020",
+      "description": "Chua ngọt, có mù tạt."
+    },
+    {
+      "id": "sweet-sour-sauce",
+      "name": "Xốt chua ngọt",
+      "price": 5000,
+      "spicy": false,
+      "color": "#df7838",
+      "description": "Chua ngọt nhẹ, hợp gà và món ăn kèm."
+    },
+    {
+      "id": "black-pepper-sauce",
+      "name": "Xốt tiêu đen",
+      "price": 5000,
+      "spicy": true,
+      "color": "#473630",
+      "description": "Thơm tiêu, có vị cay nhẹ."
+    }
+  ],
+  "addons": {
+    "combo": [
+      {
+        "id": "large-fries",
+        "name": "Đổi khoai lớn",
+        "price": 10000
+      },
+      {
+        "id": "extra-chicken",
+        "name": "Thêm 1 miếng gà",
+        "price": 29000
+      }
+    ],
+    "chicken": [
+      {
+        "id": "extra-fries",
+        "name": "Thêm khoai nhỏ",
+        "price": 15000
+      }
+    ],
+    "burger": [
+      {
+        "id": "cheese-slice",
+        "name": "Thêm phô mai lát",
+        "price": 7000
+      },
+      {
+        "id": "extra-patty",
+        "name": "Thêm phần gà",
+        "price": 20000
+      }
+    ],
+    "rice": [
+      {
+        "id": "extra-rice",
+        "name": "Thêm cơm",
+        "price": 8000
+      },
+      {
+        "id": "extra-chicken",
+        "name": "Thêm gà viên",
+        "price": 12000
+      }
+    ],
+    "sides": [],
+    "drinks": [
+      {
+        "id": "large-size",
+        "name": "Nâng cấp size lớn",
+        "price": 7000
+      },
+      {
+        "id": "less-ice",
+        "name": "Ít đá",
+        "price": 0
+      }
+    ],
+    "dessert": [
+      {
+        "id": "chocolate-sauce",
+        "name": "Thêm xốt sô cô la",
+        "price": 5000
+      }
+    ]
+  },
+  "tableOrdering": {
+    "enabled": true,
+    "tables": [
+      {
+        "id": "T01",
+        "label": "Bàn 01"
+      },
+      {
+        "id": "T02",
+        "label": "Bàn 02"
+      },
+      {
+        "id": "T03",
+        "label": "Bàn 03"
+      },
+      {
+        "id": "T04",
+        "label": "Bàn 04"
+      },
+      {
+        "id": "T05",
+        "label": "Bàn 05"
+      },
+      {
+        "id": "T06",
+        "label": "Bàn 06"
+      },
+      {
+        "id": "T07",
+        "label": "Bàn 07"
+      },
+      {
+        "id": "T08",
+        "label": "Bàn 08"
+      },
+      {
+        "id": "T09",
+        "label": "Bàn 09"
+      },
+      {
+        "id": "T10",
+        "label": "Bàn 10"
+      },
+      {
+        "id": "T11",
+        "label": "Bàn 11"
+      },
+      {
+        "id": "T12",
+        "label": "Bàn 12"
+      }
+    ]
+  },
+  "promotionPolicy": {
+    "maxGoodsVouchers": 1,
+    "maxShippingVouchers": 1,
+    "allowGoodsAndShippingTogether": true,
+    "welcomeRequiresValidPhone": true
+  }
+}

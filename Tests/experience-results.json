@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checks": [
+    "Drawer opens/closes with correct aria state; whole rows filter solo combos and actual new items",
+    "Image-two strip is replaced by four working shortcuts, including fulfillment choices",
+    "Image and keyboard open product; favorite stays separate; clicking addon price toggles exactly once",
+    "Local assistant respects budget/taste, follows cheaper request, gives correct vouchers, escapes HTML, supports Enter and product cards",
+    "All Zalo links use 0355135071 and a separate safe tab",
+    "Four payment images decode; selecting anywhere on method card changes radio",
+    "AI frontend contract covers general question, history, safe sources, provider outage and cancellation with mocked API",
+    "Staff entry is separate from customer footer and support controls",
+    "Mobile chat locks/unlocks page; drawer and welcome fit; 320px screen has no page overflow",
+    "No JavaScript errors or missing static assets"
+  ],
+  "live_ai": "Mocked for browser tests; real calls require configured API key"
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "provider": "Scripted fixtures; not a live model evaluation",
+  "checks": [
+    "Exhausted credit has a specific safe notice while answering store facts",
+    "Follow-up consultation continues without repeating requests against exhausted credit",
+    "Explicit retry reconnects and returns to AI after the owner restores service",
+    "Invalid server credentials suspend repeated AI calls and keep the catalog usable",
+    "Temporary provider throttling can recover without treating credit exhaustion as a one-minute delay",
+    "No JavaScript errors"
+  ]
+}

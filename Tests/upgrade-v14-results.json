@@ -1,0 +1,78 @@
+{
+  "passed": 18,
+  "checks": [
+    {
+      "name": "72 món và tài nguyên giao diện V14",
+      "passed": true
+    },
+    {
+      "name": "Voucher tự chọn và cộng ưu đãi món với giao hàng",
+      "passed": true
+    },
+    {
+      "name": "Đổi cách nhận tự kiểm tra điều kiện giao hàng",
+      "passed": true
+    },
+    {
+      "name": "6 xốt dùng cho món mặn, tính giá và sửa giỏ",
+      "passed": true
+    },
+    {
+      "name": "Gợi ý mua thêm tính tiền tăng thực, giữ lựa chọn tùy ý",
+      "passed": true
+    },
+    {
+      "name": "Số điện thoại cập nhật voucher mà không mất con trỏ",
+      "passed": true
+    },
+    {
+      "name": "Giới thiệu toàn màn hình và chuyển động có giảm hiệu ứng",
+      "passed": true
+    },
+    {
+      "name": "AI chọn món dùng cùng, website tính lại tiền",
+      "passed": true
+    },
+    {
+      "name": "Tạo 12 QR bàn có chi nhánh và số bàn",
+      "passed": true
+    },
+    {
+      "name": "Điện thoại đặt tại bàn, xốt và tổng được máy chủ xác nhận",
+      "passed": true
+    },
+    {
+      "name": "Nhân viên vào bếp, khách gửi hủy, nhân viên phản hồi",
+      "passed": true
+    },
+    {
+      "name": "Biên nhận tồn tại sau tải lại và cách ly thiết bị khách khác",
+      "passed": true
+    },
+    {
+      "name": "Máy chủ chặn giả giá, tùy chọn sai và Origin ngoài",
+      "passed": true
+    },
+    {
+      "name": "Gửi lại đơn không tạo trùng và xử lý tranh chấp trạng thái",
+      "passed": true
+    },
+    {
+      "name": "Chuyển khoản chỉ hoàn tất sau đối soát, xốt tính từ máy chủ",
+      "passed": true
+    },
+    {
+      "name": "Món tạm hết đồng bộ và máy chủ chặn giỏ cũ",
+      "passed": true
+    },
+    {
+      "name": "Bố cục mới vừa màn hình 320–768px",
+      "passed": true
+    },
+    {
+      "name": "Không lỗi JavaScript trong các luồng chính",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

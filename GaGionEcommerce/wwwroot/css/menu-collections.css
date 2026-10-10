@@ -1,0 +1,52 @@
+/* Các hàng khám phá theo nhu cầu trong tab Tất cả món. */
+.all-menu-collections{min-width:0;max-width:100%}
+.collection-intro{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px 24px;margin-bottom:30px;min-width:0}
+.collection-eyebrow{display:block;color:var(--primary);font-size:11px;font-weight:900;letter-spacing:1.1px;margin-bottom:5px}
+.collection-intro h3{font-size:22px;line-height:1.35;margin:0 0 6px;letter-spacing:-.5px}
+.collection-intro p{font-size:13px;color:var(--muted);margin:0 0 17px}
+.collection-nav{display:flex;gap:9px;overflow-x:auto;max-width:100%;padding:3px 2px 9px;scrollbar-width:thin;scrollbar-color:#e4c1c9 transparent}
+.collection-nav button{flex:0 0 auto;border:1px solid #efdde0;background:#fff8f8;border-radius:999px;padding:10px 15px;min-height:44px;font-size:13px;font-weight:800;color:#662638;white-space:nowrap}
+.collection-nav button:hover{background:var(--primary-soft);border-color:var(--primary);color:var(--primary)}
+.menu-collection{margin-bottom:32px;min-width:0;scroll-margin-top:190px}
+.collection-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:12px}
+.collection-title-line{display:flex;align-items:center;flex-wrap:wrap;gap:10px}
+.collection-title-line h3{font-size:23px;line-height:1.35;letter-spacing:-.6px;margin:0}
+.collection-count{font-size:11px;font-weight:800;background:#f0e9e5;color:#665c55;padding:3px 9px;border-radius:99px;white-space:nowrap}
+.collection-heading p{font-size:13px;color:var(--muted);margin:6px 0 0}
+.collection-controls{display:flex;flex-shrink:0;gap:8px}
+.collection-arrow{display:grid;place-items:center;border:1px solid var(--line);background:#fff;border-radius:50%;width:44px;height:44px;font-size:21px;color:var(--ink)}
+.collection-arrow:hover:not(:disabled){background:var(--primary);border-color:var(--primary);color:#fff}
+.collection-arrow:disabled{opacity:.35}
+.product-rail{--rail-gap:24px;display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 3 * var(--rail-gap)) / 4);gap:var(--rail-gap);overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scroll-padding-inline:0;max-width:100%;min-width:0;padding:6px 0 14px;scrollbar-width:thin;scrollbar-color:#dfbcc4 transparent}
+.product-rail>.product-card{scroll-snap-align:start;scroll-snap-stop:normal}
+.product-rail:focus-visible{outline:3px solid #ffc928;outline-offset:4px;border-radius:12px}
+.product-rail::-webkit-scrollbar,.collection-nav::-webkit-scrollbar{height:5px}
+.product-rail::-webkit-scrollbar-thumb,.collection-nav::-webkit-scrollbar-thumb{background:#dfbcc4;border-radius:10px}
+.collection-swipe-hint{display:none;margin:5px 0 0;font-size:11px;color:var(--muted)}
+@media(max-width:1280px){.product-rail{--rail-gap:18px}}
+@media(max-width:1000px){.product-rail{grid-auto-columns:calc((100% - 2 * var(--rail-gap)) / 3)}.collection-title-line h3{font-size:21px}}
+@media(max-width:760px){
+  .collection-intro{padding:18px 16px;margin-bottom:24px}
+  .collection-intro h3{font-size:20px}
+  .collection-intro p{font-size:12px}
+  .collection-nav button{font-size:12px;padding:9px 12px}
+  .menu-collection{margin-bottom:27px;scroll-margin-top:220px}
+  .collection-heading{align-items:flex-start;gap:10px}
+  .collection-title-line{gap:7px}
+  .collection-title-line h3{font-size:19px}
+  .collection-heading p{font-size:12px}
+  .collection-controls{gap:5px}
+  .collection-arrow{width:36px;height:36px;font-size:18px}
+  .product-rail{--rail-gap:14px;grid-auto-columns:calc((100% - var(--rail-gap)) / 2)}
+  .collection-swipe-hint{display:block}
+}
+@media(max-width:540px){
+  .product-rail{grid-auto-columns:84%}
+  .product-rail .product-name{font-size:17px;min-height:48px}
+  .product-rail .product-desc{font-size:13px;min-height:44px}
+  .product-rail .product-body{padding:17px}
+  .product-rail .product-price{font-size:21px}
+  .product-rail .product-footer{flex-direction:row;align-items:center;flex-wrap:wrap}
+  .product-rail .add-btn{width:auto;min-height:44px;font-size:13px}
+}
+@media(prefers-reduced-motion:reduce){.product-rail{scroll-behavior:auto}.product-rail .product-card,.product-rail .product-media img{transition:none}}

@@ -1,0 +1,26 @@
+CHICKYJOY V14
+
+1. Giai nen tat ca file ZIP vao thu muc moi (Extract All).
+2. Mo Start-ChickyJoy.cmd. Khong chay file ngay trong cua so ZIP.
+3. Cho tai .NET neu may chua co. Trinh duyet se tu mo website.
+4. Giu cua so khoi dong mo khi su dung.
+
+Voucher chon bang the, khong can go ma.
+Co goi y mua them, 6 xot va gioi thieu toan man hinh.
+
+QR TAI BAN:
+Mo /staff bang localhost, chon QR tai ban.
+Nhap IP Wi-Fi cua may va dung cong website, tao/in ma.
+Dien thoai va may cua hang can cung Wi-Fi.
+Khong in ma dung localhost cho khach.
+Don tai ban dong bo voi man hinh nhan vien.
+Doc README.md de xem huong dan chi tiet.
+
+Khoa AI ban cung cap da duoc cau hinh rieng tren may chu.
+OpenAI bao credit_balance_exhausted: tai khoan API het so du.
+Bo sung so du trong OpenAI Platform > Billing/Usage de AI tra loi.
+Website va goi y uu dai theo gio van hoat dong.
+Khi da nap, bam lam moi ket noi hoac Thu lai trong chat.
+
+Neu loi khoi dong, xem thu muc Logs va AI_SETUP.md.
+Giu rieng ban ZIP/thu muc Secrets vi co khoa cua ban.

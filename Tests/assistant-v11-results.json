@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "checks": [
+    "ChickyJoy title, header, footer and store information; legacy order references remain accessible",
+    "Natural menu request reaches AI; returned plans render with locally recalculated prices",
+    "Validated AI proposal requires review and confirmation; actual catalog item and price are added to cart",
+    "Follow-up request sends prior plans, budget and taste; corrected plan keeps food and adds drink",
+    "Context exposes only accessible order summaries and omits names, phone, address and other orders",
+    "Topic change and general questions reach AI without triggering menu scripts; conversation history preserved",
+    "Reload restores meal preferences and last proposal context",
+    "Plan guards reject missing/sold-out products, excessive quantity, insufficient servings, budget/taste/exclusion/mode conflicts; fake prices ignored",
+    "Unverified AI proposals have no order button and show a clear validation note",
+    "Order support opens real scoped order; AI cannot cancel or invent an action automatically",
+    "Provider outage falls back to menu advice with explicit status and working retry",
+    "Stop aborts pending reply, ignores late response and restores send control",
+    "Formatting supports bold and code blocks while escaping HTML from model",
+    "Rebranded page and AI chat fit 320–1366px widths",
+    "No JavaScript errors"
+  ],
+  "provider": "scripted response fixtures; checks integration and validation, not live model accuracy",
+  "live_ai": "Not exercised by this fixture test; see ready-v13-results.json for the actual quota result"
+}

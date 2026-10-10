@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "checks": [
+    "Welcome popup displays offer conditions, closes, and honors the whole-row daily opt-out",
+    "72 products; 27 local product images decode successfully",
+    "All tab has five need-based groups, distinct from top categories; each of 72 products appears once",
+    "Collection navigation clears sticky header; arrows, keyboard, end limits and favorite scroll position work",
+    "No page overflow at 320, 360, 390, 768, 1024, 1366, 1920 px",
+    "Mobile rail shows next-card preview, scrolls by button and actual touch swipe, and stays inside page width",
+    "24 combos, group filter, unaccented Vietnamese search",
+    "Price sorting is global; spicy and favorite filters use a normal grid, including empty results; clear restores groups",
+    "Registration, salted password, email update, logout and login",
+    "Category customization, voucher and checkout draft survive quantity, mode and branch changes",
+    "Bank QR displays supplied destination and separate order memo; reported payment remains unverified; totals and phone normalization",
+    "Ordered KDS transitions, payment gate, completion and points awarded once",
+    "Guest history requires exact phone and order ID",
+    "COD pickup uses four steps with no shipping step",
+    "Sold-out item cannot be ordered from a stale cart",
+    "WELCOME10 restricted to first order; invalid schedule rejected, valid schedule saved",
+    "Tracking updates across tabs; cancelled orders cannot be paid",
+    "Storage failure preserves cart and does not create a phantom order",
+    "Party reservation validates and stores contact, time and branch",
+    "Full-width banner rotates automatically",
+    "No JavaScript errors or missing requests during tested flows"
+  ]
+}

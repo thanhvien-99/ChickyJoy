@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "checks": [
+    "Guest clicks success tracking button, reloads, and reopens the exact order without typing code/phone",
+    "Guest cancels a new order with a reason; finished order cannot cancel/pay again",
+    "Legacy guest orders expose a lookup shortcut and require the exact phone before showing details",
+    "Preparing order sends a request; staff rejection and approval update the customer view across tabs",
+    "Status changing while cancel confirmation is open requires review instead of silently cancelling a cooking order",
+    "Failed cancellation save leaves both persisted order and in-memory order unchanged",
+    "Supplied Techcombank beneficiary, account and static QR appear; defer/report actions track the order; reported payment never verifies receipt or auto-refunds",
+    "Menu information has nine substantive topics, four branch cards and working FAQ accordions",
+    "Advisor asks missing details, understands bare budget/word count/slang/food exclusion, and requires meal review before adding to cart",
+    "Advice totals match voucher/fee arithmetic; constraints cover six natural-language budgets, sold-out items, exclusions, per-person budgets, cheaper and drink-addition follow-ups, and comparison",
+    "Order tracking, detailed information and meal advice fit 320–1366px screens",
+    "No JavaScript errors or missing requests"
+  ],
+  "live_payment": "No money transferred; bank QR decode verified separately",
+  "live_openai": "No key; meal advice runs locally"
+}

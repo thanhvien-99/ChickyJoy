@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "app_version": 14,
+  "launcher": "PowerShell 7.4 on Linux with .NET 8; native Windows cmd not executed",
+  "provider": {
+    "http": 502,
+    "error": "ai_quota"
+  },
+  "model_quality": "Not evaluated; no successful live model response",
+  "checks": [
+    "Launcher opened all 72 items and loaded the private server AI configuration",
+    "Private credential absent from public file routes",
+    "One actual AI request was made; provider outcome recorded without credentials",
+    "Packaged server opened staff workspace and generated 12 table QR cards",
+    "Package accepted a real table order from a separate mobile session and shared it with staff",
+    "Mobile customer cancellation reached the shared server store",
+    "No browser errors; unowned receipt denied"
+  ]
+}

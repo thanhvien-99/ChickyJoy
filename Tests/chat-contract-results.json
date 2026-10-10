@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "provider": "mocked; no external API call",
+  "checks": [
+    "AI request includes brand, shared catalog, conversation, scoped context and strict schema; server credential/store=false preserved",
+    "Structured menu plans reject nonexistent/sold-out products, excessive quantity and unknown actions",
+    "Provider failure becomes a safe error without exposing secrets",
+    "Exhausted credits, request throttling, invalid credentials and model access remain distinct without exposing provider bodies",
+    "Malformed, empty, truncated or unstructured answers fail safely",
+    "Refusal is readable without unsafe actions",
+    "Optional web search follows server configuration",
+    "User cancellation reaches provider operation"
+  ]
+}

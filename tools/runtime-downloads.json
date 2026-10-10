@@ -1,0 +1,36 @@
+{
+  "version": "8.0.31",
+  "source": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/8.0/releases.json",
+  "platforms": {
+    "win-x64": {
+      "runtime": {
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.31/dotnet-runtime-8.0.31-win-x64.zip",
+        "sha512": "9c55c58694676ee64b0eed2cd6d8cbf58b9aa8288420acc66841e15ca0099c75d4af0182d23a641c2342e5a151a325df4a12fa0bde2e47c0fb7e9a33e7b09896"
+      },
+      "aspnetcore": {
+        "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/8.0.31/aspnetcore-runtime-8.0.31-win-x64.zip",
+        "sha512": "59a663650e4165bd73efdc3d91ca442b83112d4414030ba0b4e463eaed6a98af23ac7302c0c648072f185458bc07b14c7844ddc5a7557eeac2a014187f76f85e"
+      }
+    },
+    "win-arm64": {
+      "runtime": {
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.31/dotnet-runtime-8.0.31-win-arm64.zip",
+        "sha512": "4c01f325accb1abdea354b5a7c1422299c6d48b267dd86f4173962259542b25b8f2d19787be4b3753d7aaae9a99386fff9eb90581ffb6564e47bef932aaeeace"
+      },
+      "aspnetcore": {
+        "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/8.0.31/aspnetcore-runtime-8.0.31-win-arm64.zip",
+        "sha512": "b3d328d6b7d7151c331d95fef0fdfc03fc7b7d962e5757f2bb10ba270cb0e39d5237df4f65afe6d606e524f7dd49b8b34a57d9be0af88add166904d57c9ba220"
+      }
+    },
+    "win-x86": {
+      "runtime": {
+        "url": "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.31/dotnet-runtime-8.0.31-win-x86.zip",
+        "sha512": "c8d8597dcbfa09fa267dde0e04d628360ade272f6ec1dc46f8896a58712bb6ec19e8b9ed1a9061786b99e3b4723cfb4c438e06268b1120c3a568bcae54551c9c"
+      },
+      "aspnetcore": {
+        "url": "https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/8.0.31/aspnetcore-runtime-8.0.31-win-x86.zip",
+        "sha512": "89383696b209c10c50ca312a8b25b9f284ab6122e3d5a72370cd28c408e5094cb7498328c5e6acf906efbdd8428a2c09ebc6cbfdb51cef724134a2e197df1520"
+      }
+    }
+  }
+}

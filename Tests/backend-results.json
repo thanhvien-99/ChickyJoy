@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "csharp_compilation": "Roslyn .NET 8 references: passed",
+  "msbuild": "Blocked by restricted process metadata in this environment",
+  "http_checks": [
+    "API status returns configured=false without leaking secrets",
+    "Empty, oversized and forged-role chat requests return HTTP 400",
+    "Foreign browser origin rejected",
+    "Missing API key returns a safe HTTP 503",
+    "Per-IP rate limit returns HTTP 429",
+    "Staff route serves the separate staff entry",
+    "Unknown API route returns 404 rather than storefront HTML"
+  ],
+  "live_openai_call": "Not run: no API key configured"
+}

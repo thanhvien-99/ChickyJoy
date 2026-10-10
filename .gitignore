@@ -1,0 +1,11 @@
+.vs/
+**/bin/
+**/obj/
+*.user
+*.suo
+.DS_Store
+Thumbs.db
+Secrets/*.json
+Logs/
+Run/
+**/App_Data/

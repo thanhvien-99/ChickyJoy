@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "checks": [
+    "Free-form and accentless shop-name questions use the shared brand without demanding a budget",
+    "Exact reported BEST SELLER failure now returns catalog-backed choices and prices while AI is disconnected",
+    "Second-item reference resolves the preceding product cards without resetting the conversation",
+    "Catalog item names tolerate accents, joined words and a small spelling mistake",
+    "References compare real catalog products and exact price differences",
+    "Named branch, follow-up opening hours and reload preserve the consulted branch",
+    "One message can ask brand, branch address and popular dishes together",
+    "All branch addresses are available; nearest-branch request asks for location rather than inventing distance",
+    "Missing ingredient and allergy data never produces a safety guarantee or a purchase suggestion",
+    "Sold-out items are removed from recommendations and explained in direct item lookup",
+    "Disconnected mode remains honest: no fake AI, current-news claim or hidden provider call",
+    "Connected mode sends every seller question and follow-up to AI, preserving factual conversation history",
+    "After AI outage, store lookup still resolves product cards previously proposed by AI",
+    "Seller replies and product cards fit 320–1366px widths",
+    "No JavaScript errors"
+  ],
+  "offline": "Catalog lookup and reference handling, not a language model",
+  "ai_provider": "Scripted fixtures test integration; actual provider quota result is in ready-v13-results.json",
+  "windows_launcher": "Native Windows .cmd not executed; current portable PowerShell launcher was run on Linux"
+}

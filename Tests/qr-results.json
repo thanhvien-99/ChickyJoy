@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "original_and_browser_qr_payload_equal": true,
+  "bank_bin": "970407",
+  "account_number": "7772585858",
+  "account_name_from_supplied_image": "NGUYEN THANH VIEN",
+  "amount_and_memo_in_original_qr": false
+}
